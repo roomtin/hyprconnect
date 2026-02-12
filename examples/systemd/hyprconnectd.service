@@ -1,0 +1,12 @@
+[Unit]
+Description=Hyprconnect daemon
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/Projects/hyprconnect/target/release/hyprconnectd
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

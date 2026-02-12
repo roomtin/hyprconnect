@@ -1,0 +1,5 @@
+default_device = ""
+poll_interval_seconds = 10
+battery_warn_percent = 30
+battery_crit_percent = 15
+notifications_enabled = true
