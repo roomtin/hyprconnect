@@ -1,7 +1,8 @@
 # Hyprconnect
+<img width="1920" height="1080" alt="hyprconnect" src="https://github.com/user-attachments/assets/7ef8070b-9101-4e96-92eb-8a8f9e2e59fa" />
 
-Hyprconnect is a Rust companion for KDE Connect on compositor-first desktops (Hyprland/Wayland) with a Waybar-friendly output path.
 
+### Hyprconnect is a Rust companion for KDE Connect on compositor-first desktops (Hyprland/Wayland) with a Waybar-friendly output path.
 It consists of:
 
 - `hyprconnectd`: background daemon that polls KDE Connect state and exposes a local Unix socket API.
